@@ -1,1 +1,15 @@
 title: "lmao.blog"
+url: https://lmao.blog
+baseurl: ""
+author: Andrew Eggleston
+email: egg@csh.rit.edu
+description: >
+  computer thoughts
+
+theme: no-style-please
+
+theme_config:
+  appearance: "auto"
+  back_home_text: ".."
+  date_format: "%Y-%m-%d"
+  lowercase_titles: true
