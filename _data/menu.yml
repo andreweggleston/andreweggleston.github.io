@@ -1,10 +1,4 @@
 entries:
-  - title: info
-    entries:
-      - title: assorted computer thoughts
-      - title: github repo
-        url: https://github.com/andreweggleston/lmao.blog
-
   - title: all posts
     post_list:
       limit: 5
@@ -14,7 +8,12 @@ entries:
 
   - title: rss
     url: feed.xml
-  
+
   - title: PRO TIP
     entries:
       - title: this menu is generated from _data/menu.yml
+
+  - title: info
+    entries:
+      - title: github repo
+        url: https://github.com/andreweggleston/lmao.blog
