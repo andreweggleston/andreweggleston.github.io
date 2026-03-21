@@ -13,3 +13,9 @@ theme_config:
   back_home_text: ".."
   date_format: "%Y-%m-%d"
   lowercase_titles: true
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  syntax_highlighter: rouge

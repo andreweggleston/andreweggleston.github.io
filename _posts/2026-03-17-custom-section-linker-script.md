@@ -14,7 +14,7 @@ _Otherwise_, here is a short overview of how ELF (the Executable and Linkable Fo
 ELF is how Unix and Unix-like operating systems link and load compiled programs. When you compile a source file like a simple `hello_world.c` program with a compiler like `gcc`, what first is created is an **object** file: `hello_world.o`:
 
 `sh-5.3$ cat hello_world.c`:
-```
+```c
 #include <stdio.h>
 int main(void) {
     printf("Hello, World!\n");
@@ -82,7 +82,7 @@ src/
 ```
 You could write a linker script that had a custom section defined as follows:
 
-```
+```conf
 .my_cool_section ALIGN(0x200000) :
 {
     PROVIDE (__mycoolsection_start = ABSOLUTE(.));
